@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "packsbykian",
+  "version": "${version}",
+  "name": "Packs by Kian",
+  "description": "Mische Texturepacks pro Kategorie: Glint, Crystals, Pearls und mehr.",
+  "authors": ["Kian"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.kian.packs.PacksByKianClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
